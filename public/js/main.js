@@ -19,3 +19,13 @@ $('.parallax-fon_about').parallax({
 $('.parallax_contacts').parallax({
     imageSrc: 'img/fon_3.png'
 });
+// переход по ссылкам на странице
+$(document).ready(function () {
+    $('.header_inner').on('click', 'a', function (event) {
+        event.preventDefault();
+
+        let id = $(this).attr('href');
+        let top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
