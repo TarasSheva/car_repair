@@ -146,4 +146,156 @@ ul, li {
     line-height: 3;
     font-size: 22px;
 }
+/************************works*************************/
+.works {
+    text-align: center;
+    padding: 50px 0px;
+    position: relative;
+}
+.works_title {
+    color: black;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.works_hr {
+    margin: 0 auto;
+    width: 30px;
+    height: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.works_text {
+    color: black;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+.work_images{
+    max-width: 1278px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.work_img {
+    width: 33%;
+    cursor: pointer;
+    max-height: 319px;
+    margin: auto;
+}
 
+.work_img:hover {
+    /*-webkit-filter: brightness(40%);*/
+    filter: brightness(40%);
+    transition: 1s;
+}
+/************************slider*************************/
+.slider {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 150;
+}
+.slider_fon {
+    display: none;
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.slider-show_container {
+    max-width: 630px;
+    position: relative;
+    margin: 214px auto;
+    z-index: 152;
+}
+.my_slides img {
+    width: 100%;
+}
+.prev, .next, .close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+}
+.prev {
+    border-radius: 5px;
+    left: -100px;
+}
+.next {
+    right: -100px;
+    border-radius: 5px;
+}
+.close {
+    top: 0;
+    right: -200px;
+    border-radius: 50%;
+    padding: 10px 18px 8px;
+    font-size: 32px;
+}
+.prev:hover, .next:hover, .close:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.text {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from{opacity: 0.4}
+    to{opacity: 1}
+}
+@keyframes fade {
+    from{opacity: 0.4}
+    to{opacity: 1}
+}
+
+
+/************************footer*************************/
+.footer {
+    padding: 50px;
+    background: #4b4b4b;
+    min-height: 200px;
+    text-align: center;
+}
+.footer_social {
+    font-size: 32px;
+}
+.footer_copy {
+    margin-top: 50px;
+    font-size: 14px;
+}
