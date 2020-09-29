@@ -13,7 +13,7 @@ $('.parallax_about').parallax({
 });
 
 $('.parallax-fon_about').parallax({
-    imageSrc: 'img/fon_4.png'
+    imageSrc: 'img/fon_4.jpg'
 });
 
 $('.parallax_contacts').parallax({

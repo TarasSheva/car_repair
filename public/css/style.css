@@ -284,7 +284,122 @@ ul, li {
     to{opacity: 1}
 }
 
-
+/************************about*************************/
+.parallax_about {
+    min-height: 620px;
+    background: transparent;
+}
+.about_inner {
+    text-align: center;
+    margin: auto;
+    max-width: 650px;
+    min-height: 400px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+.about_title {
+    color: black;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.about_hr {
+    margin: 0 auto;
+    width: 30px;
+    height: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.about_text {
+    color: black;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+/************************fon_about*************************/
+.parallax-fon_about {
+    min-height: 620px;
+    background: transparent;
+}
+/************************contacts*************************/
+.parallax_contacts {
+    min-height: 850px;
+    background: transparent;
+}
+.contacts_img {
+    padding-top: 50px;
+    text-align: center;
+    background: transparent;
+}
+.contacts_inner {
+    text-align: center;
+    margin: auto;
+    max-width: 650px;
+    min-height: 500px;
+    background-color: white;
+}
+.contacts_title {
+    color: black;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.contacts_hr {
+    margin: 0 auto;
+    width: 30px;
+    height: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contacts_content {
+    display: flex;
+    padding: 20px 40px;
+}
+.contacts_text {
+    width: 50%;
+}
+.contacts_text p {
+    color: black;
+    line-height: 0.5;
+    font-size: 14px;
+    text-align: left;
+}
+.contacts_form {
+    width: 50%;
+}
+.contacts_form input {
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+.contacts_form textarea {
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 10px;
+    resize: none;
+}
+.contacts_form #btn {
+    background: #4b4b4b;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.contacts_form #btn:hover {
+    opacity: 0.7;
+    transition: 1s;
+    cursor: pointer;
+}
+.contacts_form input:hover, .contacts_form textarea:hover {
+    border: 2px solid black;
+}
 /************************footer*************************/
 .footer {
     padding: 50px;
